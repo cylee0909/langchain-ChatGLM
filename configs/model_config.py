@@ -63,7 +63,7 @@ llm_model_dict = {
         "local_model_path": None,
         "provides": "ChatGLMLLMChain"
     },
-    # 注：chatglm2-cpp已在mac上测试通过，其他系统暂不支持
+    # 注：chatglm2-cpp已在mac和Ubuntu上测试通过，其他如centos,win11系统暂不支持，其原因在于调用的chatglm-cpp库不能在这些系统上安装
     "chatglm2-cpp": {
         "name": "chatglm2-cpp",
         "pretrained_model_name": "cylee0909/chatglm2cpp",
